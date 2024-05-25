@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color: cornflowerblue  ;
+}
+h1,h4,p {
+    padding-top: 30px ;
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cal {
+    box-shadow: 5px 5px 8px rgb(235, 218, 218),
+                5px 5px 8px rgba(157, 149, 149, 0.16);
+    border-radius: 25px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4,66px);
+    background-color: #ecf0f3;
+}
+input {
+    grid-column: span 4;
+    height: 68px;
+    width: 260px;
+    box-shadow: inset 6px 6px 13px rgb(109, 122, 233),
+                inset 6px 6px 13px rgb(104, 116, 193);
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 32px;
+    color: rgba(26,25,25);
+    text-align: end;
+    margin: 40px 0px 30px 0px;
+    padding: 20px;
+    font-size: 40px;
+}
+button {
+    box-shadow: 6px 6px 13px rgb(161, 233, 234),
+                6px 6px 13px rgba(134, 228, 230, 0.668);
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: medium;
+}
+.eql {
+    width: 120px;
+    border-radius: 45px;
+    box-shadow: 6px 6px 13px rgb(161, 233, 234),
+                6px 6px 13px rgba(134, 228, 230, 0.668);
+    background-color: #ecf0f3;
+
+}
